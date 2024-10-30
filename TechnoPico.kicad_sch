@@ -6648,10 +6648,6 @@
 		(uuid "9a98a5f2-1da2-4d6a-ba60-9f7fe25903cf")
 	)
 	(no_connect
-		(at 271.78 214.63)
-		(uuid "9b1d0637-13a1-41bf-aea8-9d033db3c1ee")
-	)
-	(no_connect
 		(at 41.91 68.58)
 		(uuid "a3e5509c-8d79-4be8-8f1a-a9cbee42a629")
 	)
@@ -9367,6 +9363,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 180.34) (xy 48.26 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b78f9a9-4dbc-4307-8e15-69f3aeaa337f")
+	)
+	(wire
+		(pts
 			(xy 101.6 26.67) (xy 92.71 26.67)
 		)
 		(stroke
@@ -11538,6 +11544,17 @@
 		)
 		(uuid "0c0030b7-5b73-4728-8241-4d74f6f87994")
 	)
+	(label "LED_EXT"
+		(at 48.26 184.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "745e8ef1-b90d-4070-8f8d-c6eab64cff41")
+	)
 	(label "USB D-"
 		(at 68.58 173.99 90)
 		(fields_autoplaced yes)
@@ -12029,6 +12046,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_EXT"
+		(shape input)
+		(at 271.78 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97a1bea5-72fd-4007-88c6-e953eb966583")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.506 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23539,6 +23578,72 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c83a7d65-01cc-4f01-a08d-af17cba2191f")
+		(property "Reference" "TP7"
+			(at 49.276 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EXT LED"
+			(at 49.276 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 53.34 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca901470-1a32-41b4-9d08-11acb12ce1e3")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
