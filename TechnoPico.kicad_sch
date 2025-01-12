@@ -1058,6 +1058,203 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1611,6 +1808,177 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1753,6 +2121,152 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
 					(name "~"
 						(effects
 							(font
@@ -3523,6 +4037,249 @@
 					(at 31.75 17.78 180)
 					(length 2.54)
 					(name "GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Memory_Flash:W25Q32JVZP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "W25Q32JVZP"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "W25Q32JVZP_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "W25Q32JVZP_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "DO(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DI(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5372,12 +6129,6 @@
 		(uuid "074d7e2a-5231-4da9-a9fb-95a25e8f776b")
 	)
 	(junction
-		(at 34.29 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "087115bc-f18e-494a-969c-590aa0cbee23")
-	)
-	(junction
 		(at 199.39 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5418,6 +6169,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "137bf93a-89da-44bb-a87a-b143871e65b3")
+	)
+	(junction
+		(at -34.29 159.385)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15ff8e62-13c0-4c14-a9d9-312ea71fbf53")
 	)
 	(junction
 		(at 191.77 138.43)
@@ -5468,6 +6225,12 @@
 		(uuid "1dedddea-713c-406a-b1a1-ee0920d5063d")
 	)
 	(junction
+		(at -20.32 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fd43fa6-4287-43c8-a804-61826151af1c")
+	)
+	(junction
 		(at 82.55 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5490,6 +6253,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24be8070-0d95-41c4-9943-b2e77ee1b22f")
+	)
+	(junction
+		(at -34.29 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2514aa5c-7be5-4d97-a3a2-7208e5146828")
 	)
 	(junction
 		(at 273.05 118.11)
@@ -5684,6 +6453,12 @@
 		(uuid "52612a6a-4983-43a6-b41b-0e27b32b2b21")
 	)
 	(junction
+		(at 115.57 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5367678d-2938-48b5-9d5b-29ddb96791a0")
+	)
+	(junction
 		(at 195.58 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5810,12 +6585,6 @@
 		(uuid "71ec348a-a14e-4155-980b-5a477feef1b7")
 	)
 	(junction
-		(at 219.71 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "773fff43-db3a-49ec-abc7-b48b77e40e0d")
-	)
-	(junction
 		(at 222.25 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5850,6 +6619,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e2ac449-66ee-4946-94f6-e4a41433a130")
+	)
+	(junction
+		(at -20.32 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ed86cc2-2b58-4abb-b054-5cd088df25e9")
 	)
 	(junction
 		(at 237.49 128.27)
@@ -6036,6 +6811,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dcee238-b67d-4d4c-b106-6de415dcc874")
+	)
+	(junction
+		(at -52.07 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ddc2b91-17d5-49a1-809f-1d7b0f9ee9e2")
 	)
 	(junction
 		(at 82.55 222.25)
@@ -6552,16 +7333,12 @@
 		(uuid "022d4424-b49f-4093-ba84-2838de49a9d1")
 	)
 	(no_connect
-		(at 105.41 104.14)
-		(uuid "06869d66-c818-4b63-870e-7f0aad4eff2b")
-	)
-	(no_connect
-		(at 105.41 91.44)
-		(uuid "072324bd-6dfc-463f-8297-80d39f2e0c02")
-	)
-	(no_connect
 		(at 105.41 116.84)
 		(uuid "07b36932-a00f-4c1d-9c56-79d82b736770")
+	)
+	(no_connect
+		(at 105.41 104.14)
+		(uuid "186e3097-c4e0-4b17-a561-2b842e65728d")
 	)
 	(no_connect
 		(at 17.78 179.07)
@@ -6580,20 +7357,12 @@
 		(uuid "26f1f84c-63ab-416d-81ce-9ec086f9e990")
 	)
 	(no_connect
-		(at 41.91 66.04)
-		(uuid "291805ae-ce07-4032-9ae8-8e4a8393ad0a")
-	)
-	(no_connect
 		(at 165.1 184.15)
 		(uuid "35a44d55-e2c3-420f-80c2-cb21b643d3e7")
 	)
 	(no_connect
 		(at 105.41 66.04)
 		(uuid "35e7d12d-25b0-4f53-852b-96653b92f1d0")
-	)
-	(no_connect
-		(at 41.91 63.5)
-		(uuid "37d841a9-1f1e-40d0-8753-3f62da66279a")
 	)
 	(no_connect
 		(at 105.41 109.22)
@@ -6636,6 +7405,10 @@
 		(uuid "85bc783a-3d39-4ad1-9f05-fdbc1a51856a")
 	)
 	(no_connect
+		(at 105.41 101.6)
+		(uuid "8b13d4a3-f55a-4c4e-9b94-f334e3eba76c")
+	)
+	(no_connect
 		(at 33.02 173.99)
 		(uuid "940caf61-0904-4d70-ae5c-6064b1e053bc")
 	)
@@ -6648,8 +7421,8 @@
 		(uuid "9a98a5f2-1da2-4d6a-ba60-9f7fe25903cf")
 	)
 	(no_connect
-		(at 41.91 68.58)
-		(uuid "a3e5509c-8d79-4be8-8f1a-a9cbee42a629")
+		(at 105.41 106.68)
+		(uuid "a4206e93-b3eb-4b9f-97f8-a96c337db0ab")
 	)
 	(no_connect
 		(at 165.1 181.61)
@@ -6658,10 +7431,6 @@
 	(no_connect
 		(at 105.41 124.46)
 		(uuid "a72d3c90-2145-4030-b0ed-9ec17f998e47")
-	)
-	(no_connect
-		(at 41.91 74.93)
-		(uuid "a931410f-cf82-42e4-aed7-371e7fd24db2")
 	)
 	(no_connect
 		(at 105.41 121.92)
@@ -6680,20 +7449,12 @@
 		(uuid "b46ad5dc-17b5-470d-b0b9-31ffc6f44cfe")
 	)
 	(no_connect
-		(at 105.41 88.9)
-		(uuid "b5b6ebb1-2dd4-4fae-a63e-b4ab27a2cdca")
-	)
-	(no_connect
 		(at 17.78 173.99)
 		(uuid "b67a1ce2-dd04-4d06-ae23-d5f455297d26")
 	)
 	(no_connect
 		(at 105.41 60.96)
 		(uuid "c2d2d7df-1984-4b2d-b1c4-4f7d798ee15b")
-	)
-	(no_connect
-		(at 105.41 99.06)
-		(uuid "c3928546-9fcc-4a6a-9504-5c8af2150a36")
 	)
 	(no_connect
 		(at 17.78 185.42)
@@ -6704,16 +7465,8 @@
 		(uuid "c60f849e-7bc6-4b38-a9f6-30a2b772d69d")
 	)
 	(no_connect
-		(at 105.41 96.52)
-		(uuid "cc593d38-b0af-4175-bcfe-c833b0c532d2")
-	)
-	(no_connect
-		(at 105.41 93.98)
-		(uuid "d50b20fe-85dc-4b45-8b7a-4ed3fc9eae94")
-	)
-	(no_connect
-		(at 105.41 106.68)
-		(uuid "d627943d-b02c-48f1-8d8c-72c5e083ea4a")
+		(at 105.41 99.06)
+		(uuid "da3d6ab5-782e-490c-ae02-789220240c76")
 	)
 	(no_connect
 		(at 33.02 179.07)
@@ -6734,14 +7487,6 @@
 	(no_connect
 		(at 27.94 171.45)
 		(uuid "f5847b82-51f2-49d8-b016-ead06ecef327")
-	)
-	(no_connect
-		(at 105.41 101.6)
-		(uuid "f6ee5517-0c77-433d-8ecd-0546eca7a823")
-	)
-	(no_connect
-		(at 41.91 71.12)
-		(uuid "f7581ec7-b995-4a53-8f44-3b4c9c3e0451")
 	)
 	(no_connect
 		(at 41.91 101.6)
@@ -6903,16 +7648,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 59.69) (xy 24.13 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ac1d464-9e15-4c3d-827d-1a66e4740fb8")
-	)
-	(wire
-		(pts
 			(xy 199.39 97.79) (xy 181.61 97.79)
 		)
 		(stroke
@@ -6953,6 +7688,16 @@
 	)
 	(wire
 		(pts
+			(xy -20.32 182.88) (xy -17.78 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc5beed-54d4-47d4-88a4-4e2bef390f19")
+	)
+	(wire
+		(pts
 			(xy 115.57 189.23) (xy 115.57 190.5)
 		)
 		(stroke
@@ -6990,6 +7735,16 @@
 			(type default)
 		)
 		(uuid "0f663e8d-f083-4863-9909-b894a0c680f9")
+	)
+	(wire
+		(pts
+			(xy -10.16 156.21) (xy -20.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f98d038-6413-4226-ad81-83c7c4ba8e05")
 	)
 	(wire
 		(pts
@@ -7233,6 +7988,16 @@
 	)
 	(wire
 		(pts
+			(xy -10.16 161.29) (xy -10.16 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e19689b-fb02-43ee-ba1a-2cb571902b3e")
+	)
+	(wire
+		(pts
 			(xy 74.93 26.67) (xy 66.04 26.67)
 		)
 		(stroke
@@ -7440,16 +8205,6 @@
 			(type default)
 		)
 		(uuid "2550c8b1-9803-4286-9626-d053aba02e98")
-	)
-	(wire
-		(pts
-			(xy 166.37 153.67) (xy 165.1 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "256d8f72-9ac9-4ea6-9c1d-d8d412740d21")
 	)
 	(wire
 		(pts
@@ -7713,6 +8468,16 @@
 	)
 	(wire
 		(pts
+			(xy -35.56 159.385) (xy -34.29 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e3240d-3b66-473b-92a5-cfd717378899")
+	)
+	(wire
+		(pts
 			(xy 236.22 157.48) (xy 236.22 156.21)
 		)
 		(stroke
@@ -7760,16 +8525,6 @@
 			(type default)
 		)
 		(uuid "3476384f-4d12-42c8-bb57-af7040ac3e5f")
-	)
-	(wire
-		(pts
-			(xy 34.29 59.69) (xy 34.29 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b6a221-9f01-456c-8953-74b50a8fc454")
 	)
 	(wire
 		(pts
@@ -7863,6 +8618,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 147.32) (xy 213.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394db6a2-c6e4-4ef7-a1f4-96eda4613e26")
+	)
+	(wire
+		(pts
 			(xy 29.21 20.32) (xy 29.21 19.05)
 		)
 		(stroke
@@ -7893,6 +8658,16 @@
 	)
 	(wire
 		(pts
+			(xy -52.07 162.56) (xy -52.07 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc44e49-4828-4ed2-a300-cf1d11ff635b")
+	)
+	(wire
+		(pts
 			(xy 63.5 30.48) (xy 63.5 29.21)
 		)
 		(stroke
@@ -7910,6 +8685,16 @@
 			(type default)
 		)
 		(uuid "3d0f3802-d83c-4e83-97a8-cec5ed7524b9")
+	)
+	(wire
+		(pts
+			(xy 31.75 149.86) (xy 31.75 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbae8ce-0ce2-4b59-ba66-3752fc904cc1")
 	)
 	(wire
 		(pts
@@ -7950,6 +8735,26 @@
 			(type default)
 		)
 		(uuid "3f93d3ee-4aa0-47a5-9345-66ceb15d66fb")
+	)
+	(wire
+		(pts
+			(xy -20.32 154.94) (xy -20.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3faeae58-62ec-4a73-b2e7-cbb17837c0d9")
+	)
+	(wire
+		(pts
+			(xy 105.41 166.37) (xy 107.95 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc6f903-b878-48ff-8655-c351e26cc4b5")
 	)
 	(wire
 		(pts
@@ -8060,6 +8865,16 @@
 			(type default)
 		)
 		(uuid "43c19199-9a8c-416b-9182-7bb5076ac771")
+	)
+	(wire
+		(pts
+			(xy -20.32 184.15) (xy -20.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44068c1d-35f3-4ca1-95c8-6636a6043356")
 	)
 	(wire
 		(pts
@@ -8183,7 +8998,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 168.91) (xy 171.45 168.91)
+			(xy 219.71 149.86) (xy 220.98 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499c67e7-2e5d-437d-89b3-adf6695c6174")
+	)
+	(wire
+		(pts
+			(xy 165.1 168.91) (xy 172.72 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8280,6 +9105,16 @@
 			(type default)
 		)
 		(uuid "4cf1b11a-4fe6-4dc6-84f2-555f75f26b8b")
+	)
+	(wire
+		(pts
+			(xy -45.72 162.56) (xy -34.29 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2fa935-eb23-4658-bcde-54123b4bfa46")
 	)
 	(wire
 		(pts
@@ -8723,6 +9558,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 180.34) (xy 60.96 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6421bc72-ea53-4106-b355-4d51df1347e5")
+	)
+	(wire
+		(pts
 			(xy 257.81 157.48) (xy 280.67 157.48)
 		)
 		(stroke
@@ -8753,16 +9598,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 62.23) (xy 39.37 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66714b77-01ea-4b9e-bd92-02fb2caf9674")
-	)
-	(wire
-		(pts
 			(xy 29.21 25.4) (xy 29.21 26.67)
 		)
 		(stroke
@@ -8770,16 +9605,6 @@
 			(type default)
 		)
 		(uuid "66a6e43c-4ac2-4f0c-9227-edf1bc6888ca")
-	)
-	(wire
-		(pts
-			(xy 34.29 59.69) (xy 35.56 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66e345e4-e83e-428c-bb9c-eb580a5aa1f4")
 	)
 	(wire
 		(pts
@@ -8820,6 +9645,16 @@
 			(type default)
 		)
 		(uuid "69830b20-4986-4576-b7fe-44c42e88bf3e")
+	)
+	(wire
+		(pts
+			(xy 38.1 149.86) (xy 40.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698750c0-6c3b-462b-bc0d-562242bfb80a")
 	)
 	(wire
 		(pts
@@ -8913,16 +9748,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 149.86) (xy 219.71 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c38818-b794-40c8-bcc8-1425ac7a1a88")
-	)
-	(wire
-		(pts
 			(xy 27.94 234.95) (xy 33.02 234.95)
 		)
 		(stroke
@@ -8990,16 +9815,6 @@
 			(type default)
 		)
 		(uuid "73e030d7-137e-4fe5-98dc-baba9cb1f1d3")
-	)
-	(wire
-		(pts
-			(xy 21.59 59.69) (xy 21.59 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75d62501-0060-48dc-8a66-6e6aea2ee977")
 	)
 	(wire
 		(pts
@@ -9223,6 +10038,16 @@
 	)
 	(wire
 		(pts
+			(xy -52.07 165.1) (xy -46.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f35522-7204-4b04-bab0-803dcfc97be7")
+	)
+	(wire
+		(pts
 			(xy 208.28 43.18) (xy 208.28 40.64)
 		)
 		(stroke
@@ -9293,6 +10118,16 @@
 	)
 	(wire
 		(pts
+			(xy -34.29 159.385) (xy -34.29 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8723220e-2aec-4114-8113-d13e6884a01b")
+	)
+	(wire
+		(pts
 			(xy 86.36 29.21) (xy 86.36 30.48)
 		)
 		(stroke
@@ -9353,6 +10188,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 166.37) (xy 115.57 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa8f9c1-920e-49a7-a4e8-63eef7fdc5c4")
+	)
+	(wire
+		(pts
 			(xy 55.88 19.05) (xy 55.88 29.21)
 		)
 		(stroke
@@ -9400,6 +10245,16 @@
 			(type default)
 		)
 		(uuid "8ccf1734-0e1f-47b0-85b6-8f9ca31f45f1")
+	)
+	(wire
+		(pts
+			(xy 17.78 149.86) (xy 17.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3e69a6-4927-4afc-b301-ef8f6e826a42")
 	)
 	(wire
 		(pts
@@ -9503,6 +10358,16 @@
 	)
 	(wire
 		(pts
+			(xy -29.21 156.21) (xy -34.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92476fbe-27cf-4225-a95d-6a8bf766e28b")
+	)
+	(wire
+		(pts
 			(xy 39.37 25.4) (xy 39.37 26.67)
 		)
 		(stroke
@@ -9600,6 +10465,16 @@
 			(type default)
 		)
 		(uuid "9624772d-b464-4bd1-81a9-e51a4ff38d63")
+	)
+	(wire
+		(pts
+			(xy 19.05 149.86) (xy 17.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964a8e76-37dd-4b5f-867a-c6bd26a5eebe")
 	)
 	(wire
 		(pts
@@ -9793,6 +10668,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 153.67) (xy 166.37 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ce4ff3-3a5a-42e6-aec7-1b163383651f")
+	)
+	(wire
+		(pts
 			(xy 236.22 22.86) (xy 237.49 22.86)
 		)
 		(stroke
@@ -9800,6 +10685,16 @@
 			(type default)
 		)
 		(uuid "a0fee4ad-db42-4a16-8035-d16fdda62d25")
+	)
+	(wire
+		(pts
+			(xy 213.36 149.86) (xy 214.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a137520b-f691-482a-9c91-e68bba2a065c")
 	)
 	(wire
 		(pts
@@ -9923,7 +10818,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 173.99) (xy 167.64 173.99)
+			(xy 165.1 173.99) (xy 168.91 173.99)
 		)
 		(stroke
 			(width 0)
@@ -10163,6 +11058,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 149.86) (xy 31.75 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47ea198-0cf3-4938-8341-4412c2623258")
+	)
+	(wire
+		(pts
 			(xy 193.04 48.26) (xy 194.31 48.26)
 		)
 		(stroke
@@ -10290,6 +11195,16 @@
 			(type default)
 		)
 		(uuid "b93e65fb-c0b6-44e4-ab1b-10e583631b63")
+	)
+	(wire
+		(pts
+			(xy 166.37 153.67) (xy 166.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba04cf89-424c-4100-b005-da11694731be")
 	)
 	(wire
 		(pts
@@ -10543,6 +11458,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 166.37) (xy 115.57 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1e3bcf-58e2-4158-9db3-549bf7ac5d18")
+	)
+	(wire
+		(pts
 			(xy 92.71 25.4) (xy 92.71 26.67)
 		)
 		(stroke
@@ -10703,7 +11628,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 167.64) (xy 115.57 168.91)
+			(xy 105.41 167.64) (xy 105.41 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37ea643-7221-4a86-b746-b9e6faa9e753")
+	)
+	(wire
+		(pts
+			(xy 115.57 165.1) (xy 115.57 166.37)
 		)
 		(stroke
 			(width 0)
@@ -10803,6 +11738,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 149.86) (xy 26.67 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a745c3-0b17-4357-8d9a-6260475bde0e")
+	)
+	(wire
+		(pts
 			(xy 237.49 22.86) (xy 237.49 35.56)
 		)
 		(stroke
@@ -10823,16 +11768,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 59.69) (xy 41.91 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8e7b9ac-b61b-451e-a777-9efd7b3f2ff8")
-	)
-	(wire
-		(pts
 			(xy 77.47 29.21) (xy 77.47 30.48)
 		)
 		(stroke
@@ -10840,6 +11775,16 @@
 			(type default)
 		)
 		(uuid "d9cdda2a-2578-466a-8766-98b7ef294287")
+	)
+	(wire
+		(pts
+			(xy -62.23 162.56) (xy -62.23 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da15dca3-8d3c-4d13-9047-a6e253747fbd")
 	)
 	(wire
 		(pts
@@ -10913,6 +11858,16 @@
 	)
 	(wire
 		(pts
+			(xy -34.29 156.21) (xy -34.29 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a2a62a-6ff2-4529-a459-b8c8579b2a73")
+	)
+	(wire
+		(pts
 			(xy 245.11 110.49) (xy 247.65 110.49)
 		)
 		(stroke
@@ -10970,6 +11925,16 @@
 			(type default)
 		)
 		(uuid "e2cdee52-f71f-4450-85a8-e593a250e7c8")
+	)
+	(wire
+		(pts
+			(xy -52.07 162.56) (xy -50.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2da88ca-a019-4bcd-9fe2-2aa1b74afa88")
 	)
 	(wire
 		(pts
@@ -11093,6 +12058,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 146.05) (xy 220.98 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b835bf-50ee-4bf9-a2fc-36ceee0562f4")
+	)
+	(wire
+		(pts
 			(xy 199.39 151.13) (xy 199.39 156.21)
 		)
 		(stroke
@@ -11100,16 +12075,6 @@
 			(type default)
 		)
 		(uuid "e9f63a41-ed48-4c29-91d9-1cd092f9c02c")
-	)
-	(wire
-		(pts
-			(xy 219.71 149.86) (xy 220.98 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6f37aa-f2dc-492c-a552-5ecba1ec7144")
 	)
 	(wire
 		(pts
@@ -11263,6 +12228,16 @@
 	)
 	(wire
 		(pts
+			(xy -24.13 156.21) (xy -20.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58f0ccd-d160-465d-a921-97135a479f06")
+	)
+	(wire
+		(pts
 			(xy 208.28 15.24) (xy 226.06 15.24)
 		)
 		(stroke
@@ -11290,6 +12265,16 @@
 			(type default)
 		)
 		(uuid "f6b57924-9536-4444-876c-c97fb8596f0a")
+	)
+	(wire
+		(pts
+			(xy -34.29 162.56) (xy -30.48 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70a8c77-1a3b-45ef-8ce2-85221eb5968c")
 	)
 	(wire
 		(pts
@@ -11403,6 +12388,16 @@
 	)
 	(wire
 		(pts
+			(xy -20.32 156.21) (xy -20.32 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa43d00e-9b4e-4d5b-ae7a-63575415f4ce")
+	)
+	(wire
+		(pts
 			(xy 231.14 222.25) (xy 247.65 222.25)
 		)
 		(stroke
@@ -11481,9 +12476,31 @@
 		)
 		(uuid "ff758cba-aa81-4c9e-b063-75e0810a1f62")
 	)
-	(text "INTENDED FOR RP2354,\nNO EXTERNAL FLASH"
+	(text "Flash Memory"
 		(exclude_from_sim no)
-		(at 27.178 73.406 0)
+		(at -19.558 155.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bb4c87a-9d99-4e1a-86b9-017121ced93d")
+	)
+	(text "PRE-REGULATOR USB\nPOWER INDICATOR"
+		(exclude_from_sim no)
+		(at 31.496 142.24 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "3bdb3952-72d3-4371-9b06-80a25c3b09a1")
+	)
+	(text "INTENDED FOR RP2354,\nEXTERNAL FLASH JUST IN CASE"
+		(exclude_from_sim no)
+		(at 71.12 67.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11512,6 +12529,17 @@
 			(justify left bottom)
 		)
 		(uuid "c7643156-43e5-4a6a-9673-2fe7d09a63d3")
+	)
+	(text "POST-REGULATOR 3V3\nPOWER INDICATOR"
+		(exclude_from_sim no)
+		(at 17.526 142.24 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "e7f7e8f6-6021-4225-a71c-a7659560341f")
 	)
 	(text "TEST POINTS"
 		(exclude_from_sim no)
@@ -11544,6 +12572,17 @@
 		)
 		(uuid "0c0030b7-5b73-4728-8241-4d74f6f87994")
 	)
+	(label "BOOTSEL"
+		(at -46.99 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "119e1256-5982-4ac3-9eea-ce4104e6f1cc")
+	)
 	(label "LED_EXT"
 		(at 48.26 184.15 90)
 		(fields_autoplaced yes)
@@ -11555,6 +12594,17 @@
 		)
 		(uuid "745e8ef1-b90d-4070-8f8d-c6eab64cff41")
 	)
+	(label "BOOTSEL"
+		(at 60.96 184.15 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "783e8608-e438-4e18-a351-b0e1f6b458e4")
+	)
 	(label "USB D-"
 		(at 68.58 173.99 90)
 		(fields_autoplaced yes)
@@ -11565,17 +12615,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f9a6323-17d6-49f1-a74e-10b0cdf0b304")
-	)
-	(label "BOOTSEL"
-		(at 39.37 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify right bottom)
-		)
-		(uuid "b31dc77e-0d79-47c4-8d47-e88acc8d0fb6")
 	)
 	(label "LED_ZONE1"
 		(at 54.61 175.26 90)
@@ -11742,6 +12781,116 @@
 			)
 		)
 	)
+	(global_label "SPI_SCK"
+		(shape input)
+		(at 105.41 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23d725a6-d554-4cd2-9a30-a50f72cefdc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.1966 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SS"
+		(shape input)
+		(at 41.91 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "241efa44-702b-4204-b812-7f65da6b74b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.6955 59.6106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SS"
+		(shape input)
+		(at -35.56 159.385 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2420d7dc-f7b9-4aa8-ba82-acc82e55c764")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -45.7745 159.3056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SD0"
+		(shape input)
+		(at -30.48 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33da34bd-be65-4b81-bbb1-7b4fe299189c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -42.5366 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SD3"
+		(shape input)
+		(at -30.48 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ba693b5-7dba-47fc-9bf3-779b26c49556")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -42.5366 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 41.91 113.03 180)
@@ -11764,9 +12913,31 @@
 			)
 		)
 	)
+	(global_label "QSPI_SD1"
+		(shape input)
+		(at 41.91 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4351f8c3-b3b7-4c47-a3b1-ff223ab3671b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.8534 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB D-"
 		(shape input)
-		(at 171.45 168.91 270)
+		(at 172.72 168.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11776,7 +12947,7 @@
 		)
 		(uuid "44cca29a-1aef-436e-93c4-ab6ce0d80f3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 179.5152 90)
+			(at 172.72 179.5152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11918,6 +13089,28 @@
 			)
 		)
 	)
+	(global_label "QSPI_SD2"
+		(shape input)
+		(at 41.91 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6471ed71-b549-4ae4-9594-5799fc983f9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.8534 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL2"
 		(shape input)
 		(at 219.71 52.07 270)
@@ -11984,6 +13177,28 @@
 			)
 		)
 	)
+	(global_label "SPI_CS"
+		(shape input)
+		(at 127 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73354072-be69-407d-9373-e6fef7fa196f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.4834 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL5"
 		(shape input)
 		(at 262.89 52.07 270)
@@ -12002,6 +13217,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_RX"
+		(shape input)
+		(at 127 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b35f1d8-4c6b-46c2-aed3-440b78394881")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.4834 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_RX"
+		(shape input)
+		(at 105.41 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f080319-78f3-4d5a-8355-38b6b7be85a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.9266 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12050,6 +13309,28 @@
 			)
 		)
 	)
+	(global_label "SPI_CS"
+		(shape input)
+		(at 105.41 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95ea81f0-e1b5-4dfa-9773-107ca2426cf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.9266 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_EXT"
 		(shape input)
 		(at 271.78 214.63 0)
@@ -12063,6 +13344,28 @@
 		(uuid "97a1bea5-72fd-4007-88c6-e953eb966583")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 282.506 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_TX"
+		(shape input)
+		(at 105.41 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "984bf6c0-09e6-45a5-9ba4-0345099bb333")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.6242 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12090,6 +13393,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SD3"
+		(shape input)
+		(at 41.91 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a15863ac-2df5-4e98-abbc-c3206cceaff1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.8534 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12134,6 +13459,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_TX"
+		(shape input)
+		(at 127 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acc1240a-7b0e-45ee-abb2-46cca8a39405")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.7858 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12292,6 +13639,28 @@
 			)
 		)
 	)
+	(global_label "QSPI_SCLK"
+		(shape input)
+		(at 41.91 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b887e92a-3a8d-4ccc-b140-317ebdfdfdce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.3369 74.8506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XIN"
 		(shape input)
 		(at 203.2 146.05 0)
@@ -12336,6 +13705,50 @@
 			)
 		)
 	)
+	(global_label "QSPI_SD1"
+		(shape input)
+		(at -30.48 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce1bdf74-db83-438d-a852-e2be87e93dba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -42.5366 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SD0"
+		(shape input)
+		(at 41.91 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1e5a2ac-ca2f-4ec8-9fe8-6b3c6d34b499")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.8534 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL4"
 		(shape input)
 		(at 105.41 53.34 0)
@@ -12354,6 +13767,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SD2"
+		(shape input)
+		(at -30.48 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5aa6b0e-eaa5-486d-80ce-9adb16704227")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -42.5366 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12393,6 +13828,28 @@
 		(uuid "d7e379ef-790a-45c6-bdcd-3c90003fbffa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 172.0934 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_SCK"
+		(shape input)
+		(at 127 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd0b15d0-5691-4bdb-955f-d28403b1e1ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.2134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,6 +13899,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SCLK"
+		(shape input)
+		(at -30.48 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7b623c2-3da3-4456-aec5-7d1d64a71d55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -43.0531 165.0206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12514,7 +13993,7 @@
 	)
 	(global_label "USB D+"
 		(shape input)
-		(at 167.64 173.99 270)
+		(at 168.91 173.99 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12524,7 +14003,7 @@
 		)
 		(uuid "f7399afa-11ef-4389-a721-3f708d70a072")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 184.5952 90)
+			(at 168.91 184.5952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12585,7 +14064,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0010041f-2d0f-4aa3-8a98-b531fabfa825")
 		(property "Reference" "D31"
 			(at 200.152 208.534 0)
@@ -12633,6 +14112,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 198.12 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f0eb831-5971-4031-b068-3a81ce13deff")
 		)
@@ -12661,7 +14149,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0048e37c-5a16-4476-85bd-a8d121e2d8af")
 		(property "Reference" "SW2"
 			(at 275.59 32.512 0)
@@ -12706,6 +14194,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Through-hole part, solder by hand"
+			(at 275.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe80d25a-eac3-4313-a7f4-2d888a18ebeb")
 		)
@@ -12728,7 +14225,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "019f0d60-f08c-4e16-85cd-67e7aa019c44")
 		(property "Reference" "L1"
 			(at 35.306 46.99 0)
@@ -12748,7 +14245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "PA4335.XXXNLT:PA4335.XXXNLT"
 			(at 38.1 48.26 0)
 			(effects
 				(font
@@ -12767,6 +14264,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 38.1 48.26 0)
 			(effects
 				(font
@@ -12797,7 +14303,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0229c82a-e0d7-4385-bd95-b74a953bad44")
 		(property "Reference" "LED17"
 			(at 258.826 103.886 0)
@@ -12835,6 +14341,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 255.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 255.27 110.49 0)
 			(effects
 				(font
@@ -12983,6 +14498,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 83.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 83.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d39e8529-d8b4-48a4-80cc-a0380f238694")
 		)
@@ -13005,7 +14538,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "067d5fcb-9f2e-4728-9e40-dccf01f7b17e")
 		(property "Reference" "D23"
 			(at 68.072 208.534 0)
@@ -13053,6 +14586,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 66.04 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "43bad170-24d6-4874-ba63-167742e86a54")
 		)
@@ -13076,7 +14618,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 217.17 149.86 0)
+		(at 213.36 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13084,7 +14626,7 @@
 		(dnp no)
 		(uuid "074242fc-02d1-460b-9cb9-9e30961377be")
 		(property "Reference" "#PWR08"
-			(at 217.17 153.67 0)
+			(at 213.36 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13093,7 +14635,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 217.17 146.05 0)
+			(at 213.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13101,7 +14643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 149.86 0)
+			(at 213.36 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,7 +14652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 149.86 0)
+			(at 213.36 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +14661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 217.17 149.86 0)
+			(at 213.36 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +14688,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "08d1e779-97c6-4c05-ac79-28016dd4dc3f")
 		(property "Reference" "LED22"
 			(at 86.106 236.22 0)
@@ -13184,6 +14726,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 82.55 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 82.55 242.57 0)
 			(effects
 				(font
@@ -13267,7 +14818,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 184.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -13298,7 +14858,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0bf16e31-f137-4509-af46-3c97f23fc814")
 		(property "Reference" "LED14"
 			(at 258.572 83.82 0)
@@ -13344,6 +14904,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "69bd13d1-5580-4d78-94b2-f60e3168c4b8")
 		)
@@ -13366,13 +14935,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c9f569e-f1c4-47ff-a291-00c1bc613fe8")
+		(property "Reference" "#PWR036"
+			(at 31.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae3315b5-0a50-40b1-a02b-29d85cb0d88d")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SK6812MINI-E")
 		(at 217.17 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0d6b798e-bf85-49be-bc91-6ad10cbdfa3d")
 		(property "Reference" "LED9"
 			(at 219.964 103.886 0)
@@ -13418,6 +15052,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 217.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d162ed5b-eb01-4072-a814-1efd12cc5558")
 		)
@@ -13442,7 +15085,7 @@
 	(symbol
 		(lib_name "+5V_2")
 		(lib_id "power:+5V")
-		(at 115.57 167.64 0)
+		(at 115.57 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13451,7 +15094,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f75ec61-a7b4-4215-9cf0-afb3fc7e33fc")
 		(property "Reference" "#PWR025"
-			(at 115.57 171.45 0)
+			(at 115.57 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13460,7 +15103,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 115.57 163.195 0)
+			(at 115.57 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,7 +15111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 167.64 0)
+			(at 115.57 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +15120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 167.64 0)
+			(at 115.57 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +15129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 167.64 0)
+			(at 115.57 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13513,7 +15156,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0fd872f8-4146-4342-bd6b-89e481683241")
 		(property "Reference" "MX15"
 			(at 259.08 37.338 0)
@@ -13551,6 +15194,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 259.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 259.08 33.02 0)
 			(effects
 				(font
@@ -13640,6 +15292,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at -20.32 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10816fa2-05c7-49a5-8f2b-45cb4faa93ac")
+		(property "Reference" "#PWR040"
+			(at -20.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at -20.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -20.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -20.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -20.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81f52197-026f-4005-8f29-b3578ad77c6a")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 22.86 187.96 0)
 		(unit 1)
@@ -13685,6 +15402,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 22.86 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 22.86 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 22.86 187.96 0)
 			(effects
 				(font
@@ -13779,6 +15514,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 33.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 33.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6ac5ad3-133d-492f-ace7-580db4181f46")
 		)
@@ -13801,7 +15554,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "11d11a49-dbae-4076-ac2f-a9520f0ffdc5")
 		(property "Reference" "D24"
 			(at 84.582 208.534 0)
@@ -13849,6 +15602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 82.55 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73604c04-43bd-4f83-9d1b-f4d2da7e7366")
 		)
@@ -13877,7 +15639,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1255d2e9-56c0-447a-b4b4-e27acf8c44ec")
 		(property "Reference" "TP1"
 			(at 42.926 167.132 0)
@@ -13916,6 +15678,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 41.91 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Test pad, no component to solder"
 			(at 41.91 170.18 0)
 			(effects
 				(font
@@ -13990,7 +15761,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 176.53 124.46 0)
 			(effects
 				(font
@@ -14086,7 +15866,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1575f9e1-9a13-4768-aebd-9564ad0b6d2b")
 		(property "Reference" "MX13"
 			(at 233.68 37.338 0)
@@ -14124,6 +15904,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -14266,7 +16055,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 57.15 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 57.15 261.62 0)
 			(effects
 				(font
@@ -14409,6 +16207,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 101.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 101.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8ef42f2-2824-4e84-8ea5-ef59a53e92e1")
 		)
@@ -14477,6 +16293,15 @@
 			)
 		)
 		(property "LCSC" "C106235"
+			(at 199.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 199.39 158.75 0)
 			(effects
 				(font
@@ -14619,7 +16444,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 214.63 134.62 0)
 			(effects
 				(font
@@ -14704,6 +16538,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" ""
+			(at 257.81 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44c2b791-0889-4881-b51b-a16220aa06f8")
 		)
@@ -14723,6 +16566,91 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at -48.26 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21e63a8d-861a-4cba-b91d-047b3904e13b")
+		(property "Reference" "R7"
+			(at -48.26 158.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at -48.26 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -48.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -48.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at -48.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at -48.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106235"
+			(at -48.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "988cf1f5-82f9-4dc5-859f-aba8471dff54")
+		)
+		(pin "2"
+			(uuid "8c118f59-e309-4e81-8f5e-158a5a048d39")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14799,6 +16727,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 228.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 228.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30a30947-7cb3-43f8-83b9-955881149037")
 		)
@@ -14821,7 +16767,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "23f759d6-6690-4675-acfb-5b321134c376")
 		(property "Reference" "D21"
 			(at 35.052 208.534 0)
@@ -14869,6 +16815,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 33.02 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f5509c7-98eb-4883-9bd8-5a1a5f17bbf3")
 		)
@@ -14897,7 +16852,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "257c509c-6b41-4e39-a9e8-3f281407bd56")
 		(property "Reference" "LED1"
 			(at 184.404 63.246 0)
@@ -14935,6 +16890,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 181.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 181.61 69.85 0)
 			(effects
 				(font
@@ -15010,6 +16974,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 27.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 27.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 27.94 187.96 0)
 			(effects
 				(font
@@ -15094,6 +17076,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" ""
+			(at 109.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff52f215-53dd-4724-a1af-e3e222148514")
 		)
@@ -15110,13 +17101,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 105.41 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b70951a-5215-4329-a5dc-c3b081944f19")
+		(property "Reference" "#PWR039"
+			(at 105.41 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a26239c3-f4c4-47fb-86f3-9b3a98085c5c")
+		)
+		(instances
+			(project ""
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 60.96 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2d515bce-a206-434e-be89-61db2a408382")
 		(property "Reference" "TP4"
 			(at 61.976 167.132 0)
@@ -15155,6 +17211,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Test pad, no component to solder"
 			(at 60.96 170.18 0)
 			(effects
 				(font
@@ -15221,6 +17286,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 220.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 220.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 220.98 153.67 0)
 			(effects
 				(font
@@ -15318,7 +17401,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "34e140fd-2f45-45b3-a045-781cfa85cc9b")
 		(property "Reference" "LED4"
 			(at 185.674 83.82 0)
@@ -15364,6 +17447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a94444c1-7174-4396-b81e-f1a0c893ab32")
 		)
@@ -15392,7 +17484,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "35749676-ae1e-4b19-8bb1-604df22279b4")
 		(property "Reference" "LED19"
 			(at 36.576 236.22 0)
@@ -15438,6 +17530,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 33.02 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "919a082f-8b9e-4dd5-8a32-fb0ff5bbfcfe")
 		)
@@ -15466,7 +17567,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "35bdc2ea-81e5-4713-85cc-b029941f4afd")
 		(property "Reference" "LED7"
 			(at 184.404 103.886 0)
@@ -15504,6 +17605,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 181.61 110.49 0)
 			(effects
 				(font
@@ -15604,6 +17714,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c215932-5b1e-45ec-82db-9f6121e7b361")
 		)
@@ -15614,6 +17742,91 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 110.49 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "391c62ed-95f5-4a7d-b9c7-f6244b69e33a")
+		(property "Reference" "C50"
+			(at 110.49 163.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 110.49 169.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1581"
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55c3a20b-7a09-4ce7-a23d-a71e503ae5a7")
+		)
+		(pin "2"
+			(uuid "4743e712-0455-4029-9c31-cd57d3e779bb")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -15693,7 +17906,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3ab1cf28-2b21-426f-8b13-781ce6402527")
 		(property "Reference" "MX1"
 			(at 190.5 24.638 0)
@@ -15731,6 +17944,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 190.5 20.32 0)
 			(effects
 				(font
@@ -15815,6 +18037,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" ""
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea702915-ba92-46c7-b5d6-0867f4f5e13a")
 		)
@@ -15837,7 +18068,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3b9fb826-d177-403c-99a5-e92c760707a4")
 		(property "Reference" "MX7"
 			(at 190.5 50.038 0)
@@ -15875,6 +18106,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -15952,6 +18192,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 236.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 236.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83bcc668-e66d-44c4-b549-db22077d703e")
 		)
@@ -15974,7 +18232,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3bf4eb0b-c2ab-47f5-abd2-aa14e1963cd0")
 		(property "Reference" "D28"
 			(at 150.622 208.534 0)
@@ -16022,6 +18280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 148.59 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e63e52fa-54ec-4a44-8d1f-3d0cd09fedaa")
 		)
@@ -16050,7 +18317,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4025d579-f2aa-4364-affa-0f48df53d6a7")
 		(property "Reference" "D34"
 			(at 249.682 208.534 0)
@@ -16090,6 +18357,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 247.65 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 247.65 214.63 0)
 			(effects
 				(font
@@ -16238,7 +18514,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 39.37 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 39.37 261.62 0)
 			(effects
 				(font
@@ -16379,7 +18664,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC" "C15008"
+			(at 19.05 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 19.05 207.01 0)
 			(effects
 				(font
@@ -16410,7 +18704,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49060acf-1367-4e07-b720-5e7c8b67a98d")
 		(property "Reference" "MX16"
 			(at 233.68 50.038 0)
@@ -16456,6 +18750,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
+			(at 233.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3132e1a3-e3f6-4c0e-8e4e-ecdf5a41814f")
 		)
@@ -16478,7 +18781,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4b937563-3edb-4538-9426-839cbd1d4935")
 		(property "Reference" "LED3"
 			(at 219.964 63.246 0)
@@ -16524,6 +18827,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2e40075e-1952-454d-87da-24486c363052")
 		)
@@ -16552,7 +18864,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4c422c79-6a1e-4e65-a590-eaaf0e9ae282")
 		(property "Reference" "LED21"
 			(at 69.596 236.22 0)
@@ -16598,6 +18910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 66.04 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "54038b16-69a4-4e63-a653-82213cec0e36")
 		)
@@ -16614,6 +18935,71 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -10.16 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c85e615-d3ac-4fcd-adaf-98a6a05c4ba0")
+		(property "Reference" "#PWR041"
+			(at -10.16 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -10.16 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -10.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -10.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -10.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b33fa8b7-e94b-4ce2-badb-6e38359f1152")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16673,7 +19059,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 83.82 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 83.82 261.62 0)
 			(effects
 				(font
@@ -16759,6 +19154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" ""
+			(at 149.86 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "4fef5534-17d5-4f71-b136-e005b763fb8b")
 		)
@@ -16826,7 +19230,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4ee12bbe-91ea-4feb-a55f-d5467e88f139")
 		(property "Reference" "TP2"
 			(at 49.276 167.132 0)
@@ -16865,6 +19269,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Test pad, no component to solder"
 			(at 48.26 170.18 0)
 			(effects
 				(font
@@ -16956,6 +19369,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c79c1836-b464-4b43-9907-4d7a65ae6d48")
 		)
@@ -16978,7 +19409,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4f53ad21-4471-4183-97c1-7e0163bd94f8")
 		(property "Reference" "D27"
 			(at 134.112 208.534 0)
@@ -17018,6 +19449,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 132.08 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 132.08 214.63 0)
 			(effects
 				(font
@@ -17101,7 +19541,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 74.93 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 74.93 261.62 0)
 			(effects
 				(font
@@ -17132,7 +19581,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "50097225-5c9e-4528-9791-c8eacd561de3")
 		(property "Reference" "MX17"
 			(at 246.38 50.038 0)
@@ -17170,6 +19619,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 246.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 246.38 45.72 0)
 			(effects
 				(font
@@ -17247,6 +19705,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 66.04 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 66.04 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "109aa453-6568-4f14-b868-d24cbf363e2c")
 		)
@@ -17263,13 +19739,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 217.17 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53fda9ea-5988-40dd-b05f-a82ac1bac234")
+		(property "Reference" "F1"
+			(at 217.17 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V 0.5A"
+			(at 217.17 147.828 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 222.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 217.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 217.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C69688"
+			(at 217.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df32db7d-c2e6-47fc-817d-bd4d4dd1f570")
+		)
+		(pin "2"
+			(uuid "bf28c29f-9e9d-42bf-92b8-a07b91935dcd")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 215.9 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5498919e-0d98-4508-82c5-20bf5749d0df")
 		(property "Reference" "MX3"
 			(at 215.9 24.638 0)
@@ -17307,6 +19869,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 215.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 215.9 20.32 0)
 			(effects
 				(font
@@ -17376,6 +19947,24 @@
 			)
 		)
 		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5446"
 			(at 228.6 149.86 0)
 			(effects
 				(font
@@ -17456,7 +20045,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 207.01 134.62 0)
 			(effects
 				(font
@@ -17481,13 +20079,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 31.75 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58373779-f243-4701-bf34-5d408effa393")
+		(property "Reference" "D41"
+			(at 34.29 152.3364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WHITE"
+			(at 34.29 154.8764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 31.75 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49c801b0-974a-484b-994b-aea52b7fe6ad")
+		)
+		(pin "1"
+			(uuid "6cf9eab5-e700-407a-90e3-b884a42bf07f")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SK6812MINI-E")
 		(at 237.49 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5adb3510-e84a-46ed-a8f0-50cb58f80a29")
 		(property "Reference" "LED16"
 			(at 241.046 103.886 0)
@@ -17533,6 +20219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 237.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "60b33fd9-e717-42cb-aaaf-91c98810055a")
 		)
@@ -17549,6 +20244,72 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae5472e-369c-42ae-93dd-ff418167d6f0")
+		(property "Reference" "#PWR038"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 40.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 40.64 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "170b9585-1d0e-4b6e-bee1-208e3cd5f79d")
+		)
+		(instances
+			(project ""
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17745,6 +20506,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" ""
+			(at 187.96 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bd5b142-fcb8-457e-968d-43943a3e5df4")
 		)
@@ -17767,7 +20537,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5ffc6954-bea4-46e4-a644-0d5da0e6ebb2")
 		(property "Reference" "TP6"
 			(at 42.926 177.292 0)
@@ -17806,6 +20576,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 41.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Test pad, no component to solder"
 			(at 41.91 180.34 0)
 			(effects
 				(font
@@ -17872,6 +20651,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C274416"
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 21.59 41.91 0)
 			(effects
 				(font
@@ -17958,6 +20755,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 198.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 198.12 17.78 0)
 			(effects
 				(font
@@ -18117,6 +20932,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7768c451-6910-4e73-aa9f-d9104d070612")
 		)
@@ -18195,6 +21028,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 241.3 43.18 0)
 			(effects
 				(font
@@ -18403,6 +21254,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 128.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 128.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9528feff-94fe-43c5-96f6-312eccfca39b")
 		)
@@ -18419,16 +21288,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 21.59 60.96 0)
+		(lib_id "Connector:TestPoint")
+		(at 60.96 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "67a39483-ada5-419f-8521-7c82775ac7a6")
-		(property "Reference" "#PWR015"
-			(at 21.59 67.31 0)
+		(dnp yes)
+		(uuid "67c2f4e4-ce05-470e-8c57-8d448eea6967")
+		(property "Reference" "TP8"
+			(at 61.976 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BOOTSEL"
+			(at 61.976 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 66.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18436,16 +21323,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 21.59 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 60.96 0)
+		(property "Datasheet" "~"
+			(at 66.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18453,8 +21332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 21.59 60.96 0)
+		(property "Description" "test point"
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18462,8 +21341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 60.96 0)
+		(property "Designer Notes" "Test pad, no component to solder"
+			(at 60.96 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18472,12 +21351,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "90b94a58-af83-4c4b-bbc8-103e782d7b67")
+			(uuid "3cdae920-c9e6-427f-ae2a-4023983ed535")
 		)
 		(instances
-			(project ""
+			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
-					(reference "#PWR015")
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at -26.67 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d7d745-3ee1-4113-af02-2780d5cdceab")
+		(property "Reference" "R10"
+			(at -28.702 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNF"
+			(at -28.702 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at -26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3a18c40-ba3b-4a57-9b94-ea5dd00dc8e1")
+		)
+		(pin "2"
+			(uuid "f501cfb6-dcc3-4ca3-b3b8-2b55a91310e3")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -18537,7 +21485,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 222.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 222.25 134.62 0)
 			(effects
 				(font
@@ -18633,7 +21590,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6c4a5cce-3c4a-47fd-8ee8-7b71b7a8d126")
 		(property "Reference" "MX4"
 			(at 190.5 37.338 0)
@@ -18671,6 +21628,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 190.5 33.02 0)
 			(effects
 				(font
@@ -18748,6 +21714,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df6df7af-c040-4029-b5e9-1f5395847a12")
 		)
@@ -18758,6 +21742,92 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 35.56 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d2332ad-d39b-49c9-b1c4-66b014f72feb")
+		(property "Reference" "R8"
+			(at 35.56 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 35.56 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C112291"
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5392437-95bb-4125-b010-377ac542ba2a")
+		)
+		(pin "1"
+			(uuid "8853e882-031c-4b0b-9f14-6a2628c0ed22")
+		)
+		(instances
+			(project ""
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -18835,7 +21905,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6e8717de-5cc7-444c-9f98-c56f450d8ef1")
 		(property "Reference" "LED23"
 			(at 102.616 236.22 0)
@@ -18873,6 +21943,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 99.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 99.06 242.57 0)
 			(effects
 				(font
@@ -18973,6 +22052,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 241.3 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 241.3 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42012645-49d8-41de-b07c-5babd5e3e0aa")
 		)
@@ -18983,6 +22080,97 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_Flash:W25Q32JVZP")
+		(at -20.32 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "726c5062-881a-4472-b5f9-fb8c22aceb9b")
+		(property "Reference" "U5"
+			(at -10.16 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q32JVZP"
+			(at -10.16 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+			(at -20.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+			(at -20.32 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8"
+			(at -20.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "61cb628b-6a6c-4de7-ae6f-0b0f47e5810d")
+		)
+		(pin "8"
+			(uuid "b28c9963-d755-4cfb-a056-915d7112b73d")
+		)
+		(pin "1"
+			(uuid "d00fcc3b-4e01-40df-9827-da32c4f27b76")
+		)
+		(pin "2"
+			(uuid "485525f1-9fc9-4b7d-8beb-f891fc012106")
+		)
+		(pin "7"
+			(uuid "c66cbe6c-7573-4ed6-bb1b-2233582a5282")
+		)
+		(pin "5"
+			(uuid "44aaa8fc-ccb7-4bb8-a5f0-58b5e73853ca")
+		)
+		(pin "6"
+			(uuid "42131017-9820-421e-a101-0cdd275721a4")
+		)
+		(pin "9"
+			(uuid "7d5c1330-bcf4-413c-8609-44dc625393f1")
+		)
+		(pin "4"
+			(uuid "7d64a843-b808-43c5-8bd1-a477cc25edcb")
+		)
+		(instances
+			(project ""
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -19054,32 +22242,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 29.21 59.69 180)
+		(lib_id "Device:R_Small")
+		(at 21.59 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7472e215-1cd2-402d-a89b-3f13f653f964")
-		(property "Reference" "SW3"
-			(at 29.21 55.626 0)
+		(fields_autoplaced yes)
+		(uuid "73ae8e0f-2524-4b6d-885e-a2f334efe73f")
+		(property "Reference" "R9"
+			(at 21.59 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BOOTSEL"
-			(at 29.21 57.912 0)
+		(property "Value" "220R"
+			(at 21.59 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
-			(at 29.21 64.77 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 21.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19088,7 +22277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 64.77 0)
+			(at 21.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19096,8 +22285,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 29.21 59.69 0)
+		(property "Description" "Resistor, small symbol"
+			(at 21.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19105,16 +22294,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "cf76f741-e663-4251-aeea-0b3279fc6293")
+		(property "Designer Notes" ""
+			(at 21.59 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C112291"
+			(at 21.59 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "b6e5b5ec-7a7e-4017-9aff-fc89f05f5aae")
+			(uuid "0c305f06-d82d-40e8-804e-e7aa49af2a3b")
+		)
+		(pin "1"
+			(uuid "10d4662f-8f45-4067-833c-9f6e4c4e9b24")
 		)
 		(instances
-			(project ""
+			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
-					(reference "SW3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -19166,6 +22373,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1581"
+			(at 92.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 92.71 22.86 0)
 			(effects
 				(font
@@ -19260,6 +22485,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 241.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 241.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1c7a143-453f-431d-be9c-780380535d15")
 		)
@@ -19282,7 +22525,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "752d2136-d94b-4494-8417-409c7cddf29c")
 		(property "Reference" "MX11"
 			(at 246.38 24.638 0)
@@ -19320,6 +22563,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 246.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 246.38 20.32 0)
 			(effects
 				(font
@@ -19389,6 +22641,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1581"
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 22.86 176.53 0)
 			(effects
 				(font
@@ -19483,6 +22753,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 185.42 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 185.42 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e35fa28-76fc-4976-a1be-bfdf5d07e467")
 		)
@@ -19551,6 +22839,15 @@
 			)
 		)
 		(property "LCSC" "C2909343"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 109.22 40.64 0)
 			(effects
 				(font
@@ -19645,6 +22942,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 198.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 198.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a68c62b7-9c56-4beb-927f-28dc4a282ae5")
 		)
@@ -19731,6 +23046,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 267.97 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 267.97 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba24f31f-99b7-4e98-9826-1bc0a2d47083")
 		)
@@ -19753,7 +23086,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7cf86f33-9a6a-4cc7-8a8d-2f9bc7c739c0")
 		(property "Reference" "MX5"
 			(at 203.2 37.338 0)
@@ -19791,6 +23124,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 203.2 33.02 0)
 			(effects
 				(font
@@ -19885,6 +23227,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bec58bc8-f14c-4b17-bdc2-c8b3b63b9103")
 		)
@@ -19907,7 +23267,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7d5f5ad3-3649-4f82-bc30-6c4129623a09")
 		(property "Reference" "MX18"
 			(at 259.08 50.038 0)
@@ -19945,6 +23305,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 259.08 45.72 0)
 			(effects
 				(font
@@ -20012,6 +23381,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138002"
 			(at 29.21 33.02 0)
 			(effects
 				(font
@@ -20154,7 +23541,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 191.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 191.77 124.46 0)
 			(effects
 				(font
@@ -20180,7 +23576,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 166.37 153.67 0)
+		(at 166.37 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20188,7 +23584,7 @@
 		(dnp no)
 		(uuid "825a6215-94c4-4fd0-8d1c-99b0d649e6ad")
 		(property "Reference" "#PWR012"
-			(at 166.37 157.48 0)
+			(at 166.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20197,7 +23593,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 166.37 149.606 0)
+			(at 166.37 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20205,7 +23601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 153.67 0)
+			(at 166.37 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20214,7 +23610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 153.67 0)
+			(at 166.37 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20223,7 +23619,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 153.67 0)
+			(at 166.37 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20250,7 +23646,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "835aec2e-71c8-43d6-92f9-2111d19bbd0b")
 		(property "Reference" "LED11"
 			(at 258.826 63.246 0)
@@ -20288,6 +23684,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 255.27 69.85 0)
 			(effects
 				(font
@@ -20454,6 +23859,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 198.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 198.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90c2355c-8e05-47dc-9056-c3f587f0b46f")
 		)
@@ -20521,7 +23944,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C1581"
+			(at 275.59 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 275.59 146.05 0)
 			(effects
 				(font
@@ -20552,7 +23984,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "85a0cd86-36df-4e2d-86a4-58661c6185ff")
 		(property "Reference" "LED18"
 			(at 276.606 103.886 0)
@@ -20590,6 +24022,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 273.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 273.05 110.49 0)
 			(effects
 				(font
@@ -20738,6 +24179,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 137.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 137.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a43ff5b-8c8c-49bf-8394-aca2431b4763")
 		)
@@ -20760,7 +24219,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "89911f90-80c5-4fbc-98ad-b19bbd51a2c8")
 		(property "Reference" "D22"
 			(at 51.562 208.534 0)
@@ -20808,6 +24267,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 49.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3424fdc3-992e-496c-9b78-a4a7cb43ac43")
 		)
@@ -20836,7 +24304,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8e444d6a-2e15-425c-8685-aafd09698490")
 		(property "Reference" "D25"
 			(at 101.092 208.534 0)
@@ -20876,6 +24344,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 99.06 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 99.06 214.63 0)
 			(effects
 				(font
@@ -20951,6 +24428,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 30.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C274416"
+			(at 30.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -21040,13 +24535,79 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 26.67 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "913ae636-57b9-48ac-812a-a9e222c437e1")
+		(property "Reference" "#PWR037"
+			(at 26.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 26.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2afaca90-cab0-4247-9c8d-ad814347a6e6")
+		)
+		(instances
+			(project ""
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 246.38 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "933ee826-056c-464e-9959-0bf89df520bd")
 		(property "Reference" "MX14"
 			(at 246.38 37.338 0)
@@ -21084,6 +24645,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 246.38 33.02 0)
 			(effects
 				(font
@@ -21226,7 +24796,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 214.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 214.63 124.46 0)
 			(effects
 				(font
@@ -21311,6 +24890,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" ""
+			(at 194.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b2ba74a-28bc-4873-968c-45f97af7d833")
 		)
@@ -21339,7 +24927,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9e31cf2d-5406-4d16-a541-b1c8afc0b93e")
 		(property "Reference" "D35"
 			(at 266.192 208.534 0)
@@ -21379,6 +24967,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 264.16 214.63 0)
 			(effects
 				(font
@@ -21462,7 +25059,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 199.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 199.39 134.62 0)
 			(effects
 				(font
@@ -21481,6 +25087,94 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 17.78 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a29a1278-0c9e-4eaa-bec1-5eb39d5b4670")
+		(property "Reference" "D40"
+			(at 20.32 152.3364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WHITE"
+			(at 20.32 154.8764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 17.78 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 17.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 17.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 17.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff46a699-8366-4dea-83e5-a088ba5b2dcb")
+		)
+		(pin "1"
+			(uuid "f8c99eac-006a-4308-b929-a43567205da9")
+		)
+		(instances
+			(project ""
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -21540,6 +25234,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 29.21 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 29.21 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "469f81a7-1017-4fda-acf5-ad8f1480de9d")
 		)
@@ -21562,7 +25274,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a30f7fd2-59cd-4c92-836f-8522d166b5e3")
 		(property "Reference" "LED6"
 			(at 221.234 83.82 0)
@@ -21608,6 +25320,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b9be6c6f-8c23-4faa-b816-ff8c63b9b9ba")
 		)
@@ -21624,6 +25345,84 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at -10.16 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4d1f7c8-e4e1-4da4-aa92-5159b15d896d")
+		(property "Reference" "C51"
+			(at -7.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at -7.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at -10.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -10.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -10.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at -10.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3db651d-53a8-4823-95f5-95e13c5541ce")
+		)
+		(pin "2"
+			(uuid "02217351-c164-45d4-be9a-fd9164a134d2")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -21683,7 +25482,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 229.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 229.87 134.62 0)
 			(effects
 				(font
@@ -21826,7 +25634,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 66.04 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 66.04 261.62 0)
 			(effects
 				(font
@@ -21906,6 +25723,15 @@
 			)
 		)
 		(property "LCSC" "C2687116"
+			(at 115.57 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 115.57 179.07 0)
 			(effects
 				(font
@@ -21995,7 +25821,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 237.49 134.62 0)
 			(effects
 				(font
@@ -22073,7 +25908,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 229.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 229.87 124.46 0)
 			(effects
 				(font
@@ -22099,7 +25943,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 219.71 149.86 0)
+		(at 220.98 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22108,7 +25952,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0114509-1fa2-4eae-a2bc-1ea2272bb9e5")
 		(property "Reference" "#FLG03"
-			(at 219.71 147.955 0)
+			(at 220.98 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22117,7 +25961,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 219.71 144.78 0)
+			(at 220.98 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22126,7 +25970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 149.86 0)
+			(at 220.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22135,7 +25979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 149.86 0)
+			(at 220.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22144,7 +25988,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 219.71 149.86 0)
+			(at 220.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22348,7 +26192,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 222.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 222.25 124.46 0)
 			(effects
 				(font
@@ -22425,6 +26278,15 @@
 			)
 		)
 		(property "LCSC" "C1557"
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 185.42 146.05 0)
 			(effects
 				(font
@@ -22520,7 +26382,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b66f3dc8-badd-488d-9fa3-54625a18ca5f")
 		(property "Reference" "D32"
 			(at 216.662 208.534 0)
@@ -22560,6 +26422,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 214.63 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 214.63 214.63 0)
 			(effects
 				(font
@@ -22636,6 +26507,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -22843,7 +26723,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b923ef0a-9469-46b5-a5f2-d1956c7e44a0")
 		(property "Reference" "D30"
 			(at 183.642 208.534 0)
@@ -22883,6 +26763,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 181.61 214.63 0)
 			(effects
 				(font
@@ -22966,7 +26855,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 48.26 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 48.26 261.62 0)
 			(effects
 				(font
@@ -23061,6 +26959,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d4027a6-0ffe-4c8d-a1ea-2bf16f5c95fe")
 		)
@@ -23122,6 +27038,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1581"
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 110.49 22.86 0)
 			(effects
 				(font
@@ -23199,7 +27133,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 176.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 176.53 134.62 0)
 			(effects
 				(font
@@ -23343,6 +27286,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 119.38 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 119.38 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fe528d8-e8ca-4369-9ab5-6d1a73e50ef7")
 		)
@@ -23412,7 +27373,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 207.01 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 207.01 124.46 0)
 			(effects
 				(font
@@ -23490,6 +27460,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 27.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 27.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81516269-5e06-49bd-897c-c6dbc9fcfff5")
 		)
@@ -23559,7 +27547,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 199.39 124.46 0)
 			(effects
 				(font
@@ -23590,7 +27587,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c83a7d65-01cc-4f01-a08d-af17cba2191f")
 		(property "Reference" "TP7"
 			(at 49.276 177.292 0)
@@ -23629,6 +27626,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Test pad, no component to solder"
 			(at 48.26 180.34 0)
 			(effects
 				(font
@@ -23712,6 +27718,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 210.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 210.82 30.48 0)
 			(effects
 				(font
@@ -23867,13 +27891,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 132.08 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "cd0bb702-620d-4c02-8626-457056323766")
+		(property "Reference" "J3"
+			(at 134.62 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 134.62 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Optional, surface mount pads, no pins needed "
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9b35cee2-1d57-43d4-acc2-e3093ea044ea")
+		)
+		(pin "1"
+			(uuid "635fed3d-00eb-43bb-a259-459ca328b0f9")
+		)
+		(pin "3"
+			(uuid "858ac20d-0dca-49a3-a327-31f8c087725e")
+		)
+		(pin "2"
+			(uuid "c15bda6d-575b-4659-aa7f-1b17466a4f07")
+		)
+		(instances
+			(project ""
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SK6812MINI-E")
 		(at 199.39 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cd377b15-f58b-4d17-af8e-e99dab3ac3d7")
 		(property "Reference" "LED8"
 			(at 202.184 103.886 0)
@@ -23919,6 +28028,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4e078f97-ed7e-44b3-9345-8f86d5ec311d")
 		)
@@ -23947,7 +28065,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ce15b436-a0c3-431b-9522-4e8f24f8c904")
 		(property "Reference" "J2"
@@ -23995,6 +28113,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Optional, surface mount pads, no pins needed"
+			(at 27.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "656d9934-0a0f-4967-a6be-f0eb96f3fb2a")
 		)
@@ -24017,7 +28144,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d0a2c973-d0ed-44f8-b094-aa7366e1e4f9")
 		(property "Reference" "LED20"
 			(at 53.086 236.22 0)
@@ -24063,6 +28190,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 49.53 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bf9554f2-b350-40e0-bd97-070a0af4bd5d")
 		)
@@ -24079,6 +28215,156 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at -57.15 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0ff43dc-2e24-4c58-a612-8e8987669a67")
+		(property "Reference" "SW3"
+			(at -57.15 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOTSEL"
+			(at -57.15 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at -57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at -57.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at -57.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at -57.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22991ddd-14b1-4fc2-a345-46c71895f5bb")
+		)
+		(pin "2"
+			(uuid "95083213-43d5-4f93-934e-72ab5b5c3601")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -62.23 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d164e882-4093-41a7-a0c0-944ade41a153")
+		(property "Reference" "#PWR015"
+			(at -62.23 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -62.23 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a73e1568-e45a-4e6f-a5f8-13cff8418f25")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -24155,6 +28441,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88bbc1aa-0a45-41c5-9e43-4bab11708fb1")
 		)
@@ -24177,7 +28481,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d51580b1-8cf7-409e-bf2d-afdef99e9e0f")
 		(property "Reference" "MX8"
 			(at 203.2 50.038 0)
@@ -24215,6 +28519,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 203.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 203.2 45.72 0)
 			(effects
 				(font
@@ -24292,6 +28605,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 33.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 33.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23281459-36ab-43e3-9d3a-6f58acff72e9")
 		)
@@ -24361,6 +28692,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d75977f-9568-4f22-a25b-503806f65fcc")
 		)
@@ -24383,7 +28732,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d80eed59-14fd-4d2e-8a8a-2d9f56b53796")
 		(property "Reference" "LED2"
 			(at 202.184 63.246 0)
@@ -24421,6 +28770,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 199.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 199.39 69.85 0)
 			(effects
 				(font
@@ -24521,6 +28879,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06abb994-eb1a-4251-9eac-313f9c9dd9c2")
 		)
@@ -24590,6 +28966,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 74.93 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 74.93 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b17de6c2-f9bd-4d5a-853a-094c3aa62706")
 		)
@@ -24612,7 +29006,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "da4bc572-6676-4037-bdd7-3f736771821f")
 		(property "Reference" "LED24"
 			(at 119.126 236.22 0)
@@ -24658,6 +29052,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 115.57 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "315f5095-629c-4a8a-8cfc-dbfcd5d4da5c")
 		)
@@ -24686,7 +29089,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "daa4dc71-98a9-40a6-9f05-05c4993b453a")
 		(property "Reference" "MX12"
 			(at 259.08 24.638 0)
@@ -24732,6 +29135,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "addae23b-d3fc-49ce-93ab-ca7bbfe6e318")
 		)
@@ -24754,7 +29166,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dafe57b4-321d-4e13-bb3d-7e21e8cf6f31")
 		(property "Reference" "D33"
 			(at 233.172 208.534 0)
@@ -24794,6 +29206,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 231.14 214.63 0)
 			(effects
 				(font
@@ -24894,6 +29315,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 254 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 254 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3253e09-d109-4345-a418-23600281f044")
 		)
@@ -24972,6 +29411,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -25066,6 +29523,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec7c8ed6-44e7-43a6-b828-65ea0480e291")
 		)
@@ -25088,7 +29563,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e04f142c-68ac-4f84-9400-c34f1ebf54a1")
 		(property "Reference" "LED13"
 			(at 240.792 83.82 0)
@@ -25126,6 +29601,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 237.49 90.17 0)
 			(effects
 				(font
@@ -25226,6 +29710,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "713375ed-7d09-4dec-9b77-e9e4efcf9ed7")
 		)
@@ -25248,7 +29750,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e370126c-976b-44d4-86f9-2972be2d5690")
 		(property "Reference" "LED15"
 			(at 276.352 83.82 0)
@@ -25286,6 +29788,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 273.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 273.05 90.17 0)
 			(effects
 				(font
@@ -25369,6 +29880,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 17.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 17.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "122ef16d-57ec-41d3-ae0d-a1c32aab8096")
 		)
@@ -25438,6 +29967,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1581"
+			(at 17.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 17.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d570d554-9f39-4224-bb3c-b610d1810227")
 		)
@@ -25460,7 +30007,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e86daaa1-bda3-46cd-9f72-74619d3ba44a")
 		(property "Reference" "SW1"
 			(at 275.59 19.558 0)
@@ -25505,6 +30052,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Through-hole part, solder by hand"
+			(at 275.59 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f412241-6dd2-4c06-9238-91cc51901a46")
 		)
@@ -25527,7 +30083,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e9a7fbab-ce01-45cb-aba5-fc799972080d")
 		(property "Reference" "LED12"
 			(at 276.606 63.246 0)
@@ -25573,6 +30129,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 273.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "8ec74126-a29a-4e82-b16b-b9a15fe9e6d0")
 		)
@@ -25601,7 +30166,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eac7c0c0-757b-44d1-895d-a8e784aa4730")
 		(property "Reference" "LED5"
 			(at 203.454 83.82 0)
@@ -25639,6 +30204,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -25794,6 +30368,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" ""
+			(at 168.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fce0c20-8080-4978-863e-c0549d1032b4")
 		)
@@ -25855,6 +30438,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C274416"
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 39.37 22.86 0)
 			(effects
 				(font
@@ -25950,7 +30551,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f0184e34-e57f-4f8d-b88b-7afb103ac801")
 		(property "Reference" "D26"
 			(at 117.602 208.534 0)
@@ -25998,6 +30599,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 115.57 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7e75dc5-3cdb-4044-9822-096a97ec9ac7")
 		)
@@ -26026,7 +30636,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f03bc310-03a3-41a9-a710-bbcfe7cb06b1")
 		(property "Reference" "MX9"
 			(at 215.9 50.038 0)
@@ -26072,6 +30682,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31386343-bccf-4620-a532-8a534bce3070")
 		)
@@ -26094,7 +30713,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f0491398-818e-46eb-9411-ff3fd3b567a6")
 		(property "Reference" "TP3"
 			(at 55.626 167.132 0)
@@ -26133,6 +30752,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 54.61 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Test pad, no component to solder"
 			(at 54.61 170.18 0)
 			(effects
 				(font
@@ -26207,7 +30835,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 191.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 191.77 134.62 0)
 			(effects
 				(font
@@ -26302,6 +30939,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 22.86 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 22.86 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bdaf04c-ff5d-473b-9c86-9cf2d8ee57a7")
 		)
@@ -26371,7 +31026,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 184.15 134.62 0)
 			(effects
 				(font
@@ -26402,7 +31066,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f1a9dfc1-6c29-4b1a-b825-2d6547140849")
 		(property "Reference" "TP5"
 			(at 69.596 167.132 0)
@@ -26449,6 +31113,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Test pad, no component to solder"
+			(at 68.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89d31c04-0242-4a66-8751-7416f4ab7537")
 		)
@@ -26468,7 +31141,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f2c97927-00ab-49c4-833d-5da0afa28932")
 		(property "Reference" "MX6"
 			(at 215.9 37.338 0)
@@ -26506,6 +31179,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 215.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 215.9 33.02 0)
 			(effects
 				(font
@@ -26583,7 +31265,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437555"
+		(property "LCSC" "C15008"
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
 			(at 237.49 124.46 0)
 			(effects
 				(font
@@ -26602,6 +31293,72 @@
 			(project "TechnoPico"
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -20.32 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7300842-1862-4289-bc4e-9b6f4c20670a")
+		(property "Reference" "#PWR042"
+			(at -20.32 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -20.32 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -20.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -20.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -20.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfe49e42-783d-42b7-be8b-93e88f58ac74")
+		)
+		(instances
+			(project "TechnoPico"
+				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -26679,7 +31436,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f7f46b06-748c-4216-be3b-7a9daf2db7d3")
 		(property "Reference" "MX2"
 			(at 203.2 24.638 0)
@@ -26725,6 +31482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84c8a442-661c-4b1a-885c-9848357689d5")
 		)
@@ -26747,7 +31513,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f8a969ed-d577-4a06-853f-fe3e2334fed3")
 		(property "Reference" "LED10"
 			(at 241.046 63.246 0)
@@ -26785,6 +31551,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 237.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
 			(at 237.49 69.85 0)
 			(effects
 				(font
@@ -26868,6 +31643,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C274416"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7188c893-51f2-406d-a7ce-8adf5c39a9eb")
 		)
@@ -26890,7 +31683,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f9a7295e-2ba2-43aa-9a9b-7cc2de2a18e4")
 		(property "Reference" "D29"
 			(at 167.132 208.534 0)
@@ -26938,6 +31731,15 @@
 				(hide yes)
 			)
 		)
+		(property "Designer Notes" "Buy from digikey/etc, place by hand"
+			(at 165.1 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6b8486bd-2bee-468d-9e68-6eeef2766aed")
 		)
@@ -26960,32 +31762,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 38.1 59.69 90)
+		(lib_id "power:GND")
+		(at 17.78 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "facc79d2-76c2-4f8f-a65b-babdbf49e80f")
-		(property "Reference" "R7"
-			(at 38.1 55.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 38.1 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 59.69 0)
+		(uuid "f9bba4e6-1369-4b4d-b4f1-5e281fb16d9d")
+		(property "Reference" "#PWR035"
+			(at 17.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26993,8 +31779,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 59.69 0)
+		(property "Value" "GND"
+			(at 17.78 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27002,8 +31796,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 38.1 59.69 0)
+		(property "Datasheet" ""
+			(at 17.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27012,15 +31815,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdb6ad62-b079-44f2-88d6-e5a436a73f4e")
-		)
-		(pin "2"
-			(uuid "3872bec2-2ba9-4a81-991c-a2df80edb4fb")
+			(uuid "48df6083-2646-4cb1-ade4-fb7fc8ddd6e3")
 		)
 		(instances
 			(project ""
 				(path "/1438bc10-a9ef-4a0f-9a48-ff7218bb9654"
-					(reference "R7")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -27097,6 +31897,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 210.82 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" ""
+			(at 210.82 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19cb4743-a596-4824-b2cd-3c1c0c0f7c27")
 		)
@@ -27119,7 +31937,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ffeab8b9-02b9-4512-9ba4-ea13091572d5")
 		(property "Reference" "MX10"
 			(at 233.68 24.638 0)
@@ -27157,6 +31975,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 233.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer Notes" "Buy from your preferred shop, place by hand"
 			(at 233.68 20.32 0)
 			(effects
 				(font
