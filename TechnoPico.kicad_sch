@@ -14508,7 +14508,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 83.82 22.86 0)
 			(effects
 				(font
@@ -16217,7 +16217,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 101.6 22.86 0)
 			(effects
 				(font
@@ -17809,7 +17809,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 110.49 166.37 0)
 			(effects
 				(font
@@ -19640,7 +19640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 66.04 22.86 0)
 			(effects
 				(font
@@ -20405,7 +20405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 187.96 158.75 0)
 			(effects
 				(font
@@ -21189,7 +21189,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 128.27 22.86 0)
 			(effects
 				(font
@@ -21304,7 +21304,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "68d7d745-3ee1-4113-af02-2780d5cdceab")
 		(property "Reference" "R10"
 			(at 144.018 46.482 90)
@@ -21649,7 +21649,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 48.26 22.86 0)
 			(effects
 				(font
@@ -22074,6 +22074,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C571260"
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "61cb628b-6a6c-4de7-ae6f-0b0f47e5810d")
 		)
@@ -22315,7 +22324,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 92.71 22.86 0)
 			(effects
 				(font
@@ -22583,7 +22592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 22.86 176.53 0)
 			(effects
 				(font
@@ -23878,7 +23887,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 275.59 146.05 0)
 			(effects
 				(font
@@ -24113,7 +24122,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 137.16 22.86 0)
 			(effects
 				(font
@@ -25168,7 +25177,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 29.21 22.86 0)
 			(effects
 				(font
@@ -25311,7 +25320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -26119,7 +26128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.42 146.05 0)
 			(effects
 				(font
@@ -26385,6 +26394,15 @@
 			)
 		)
 		(property "Designer Notes" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42411118"
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -26915,7 +26933,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 110.49 22.86 0)
 			(effects
 				(font
@@ -27155,7 +27173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 119.38 22.86 0)
 			(effects
 				(font
@@ -27329,7 +27347,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 27.94 176.53 0)
 			(effects
 				(font
@@ -28474,7 +28492,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 33.02 176.53 0)
 			(effects
 				(font
@@ -28835,7 +28853,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 74.93 22.86 0)
 			(effects
 				(font
@@ -29836,7 +29854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1581"
+		(property "LCSC" "C1525"
 			(at 17.78 176.53 0)
 			(effects
 				(font
